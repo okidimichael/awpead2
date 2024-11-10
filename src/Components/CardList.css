@@ -1,0 +1,74 @@
+.email1, .name1, .contact1{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	text-align: center;
+	color: coral;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: fantasy;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   }
+.email1, .contact1{
+	font-size: 20px;
+}
+
+@media (max-width: 650px) {
+.Card{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex: 100%;
+}
+
+.test{
+		width: 100%;
+	}
+.test img{
+	/*display: flex;*/
+/*height: 100%;*/
+	object-fit: cover;
+
+
+}
+.email1, .name1{
+	display: flex;
+	flex-wrap:  wrap;
+	flex-direction: row;
+	 font-size: 15px;
+	 font-family: "Times New Roman";	
+}
+
+.email1, .contact1{
+	display: flex;
+	flex-wrap:  wrap;
+	flex-direction: row;
+	 font-size: 15px;
+	 font-family: "Times New Roman";	
+}
+
+
+
+}
+
+@media (max-width: 1000px) {
+	.email1, .name1{ 
+	display: flex;
+	flex-wrap:  wrap;
+	flex-direction: row;
+	justify-content: center;
+	 font-size: 16.5px;	
+	 font-family: "Times New Roman";
+}
+
+ .email1, .contact1{
+	display: flex;
+	flex-wrap:  wrap;
+	flex-direction: row;
+	justify-content: center;
+	 font-size: 16.5px;	
+	 font-family: "Times New Roman";
+		}
+}
+
